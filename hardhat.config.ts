@@ -28,7 +28,7 @@ const config: HardhatUserConfig = {
         process.env.DEPLOYER || ''
       ],
       chainId: 8217,
-      gas: 8500000,
+      gas: 3000000,
     },
     baobab: {
       url: 'https://kaikas.baobab.klaytn.net:8651',
@@ -40,7 +40,7 @@ const config: HardhatUserConfig = {
         process.env.DEPLOYER || ''
       ],
       chainId: 1001,
-      gas: 8500000,
+      gas: 3000000,
     },
   },
   mocha: {
