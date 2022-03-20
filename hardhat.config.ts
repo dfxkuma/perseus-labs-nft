@@ -19,7 +19,7 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat: {},
     cypress: {
-      url: 'https://kaikas.cypress.klaytn.net:8651',
+      url: 'https://public-node-api.klaytnapi.com/v1/cypress',
       httpHeaders: {
         'Authorization': 'Basic ' + Buffer.from(process.env.ACCESS_KEY_ID + ':' + process.env.SECRET_ACCESS_KEY).toString('base64'),
         'x-chain-id': '8217',
